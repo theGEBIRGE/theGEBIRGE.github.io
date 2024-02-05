@@ -1,0 +1,17 @@
+baseURL = "https://gebir.ge/"
+languageCode = "en-us"
+# PygmentsCodeFences = true
+# https://xyproto.github.io/splash/docs/all.html
+# This style will let me specify my own background color.
+# PygmentsStyle = "pygments"
+PygmentsStyle = "bw"
+pluralizeListTitles = false
+
+[markup.goldmark.renderer]
+  unsafe = true
+rssLimit = 20
+copyright = "💖 2024 Frederic Linn"
+title = "Security and more... Security | GEBIRGE"
+[author]
+  name = "Frederic Linn"
+  email = "frederic@gebir.ge"

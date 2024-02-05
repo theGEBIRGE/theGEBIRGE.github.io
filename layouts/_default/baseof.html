@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  {{- partial "head.html" . -}}
+    <body>
+      <header>
+        <h1>⛰</h1>
+        <nav>
+          <ul>
+            <strong><a href="/blog">blog</a></strong>
+            <strong><a href="/games">games</a></strong>
+            <strong><a href="/about">about</a></strong>
+            <strong><a href="/blog/index.xml"><img src="/rss.svg" alt="rss feed icon" width="12" height="12"> rss</a></strong>
+          </ul>
+        </nav>
+      </header>
+      <hr/>
+        {{- block "main" . }}{{- end }}
+        {{- partial "footer.html" . -}}
+    </body>
+</html>

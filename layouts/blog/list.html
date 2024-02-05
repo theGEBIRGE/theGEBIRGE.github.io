@@ -1,0 +1,18 @@
+{{define "main"}}
+<main>
+  <section>
+    {{ range (where .Site.RegularPages "Section" "blog")}}
+    <article>
+      <header>
+        <time datetime='{{.Date.Format "January 2, 2006"}}'>
+          {{ .Date.Format (default "02 Jan, 2006" .Site.Params.dateFormat) }}
+          </time>
+        <h2>
+          <a href="{{.Permalink}}">{{.Title}}</a>
+        </h2>
+      </header>
+    </article>
+    {{ end }}
+  </section>
+</main>
+{{end}}

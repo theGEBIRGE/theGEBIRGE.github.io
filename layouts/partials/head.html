@@ -1,0 +1,12 @@
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="Frederic Linn">
+  {{ if .IsHome }}
+  <meta http-equiv="Refresh" content="0; url=/blog" />
+  {{ end }}
+  <title>{{.Title}} | GEBIRGE</title>
+  <!-- {{ $style := resources.Get "main.scss" | resources.ToCSS | resources.Minify | resources.Fingerprint }} -->
+  <link rel="alternate" type="application/rss+xml" href="https://gebir.ge/blog/index.xml" title="Security and more... Security | GEBIRGE">
+  <link rel="stylesheet" href="/style.css">
+</head>
