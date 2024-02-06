@@ -34,7 +34,7 @@ I made TICKTOCK to get to know the awesome [crisp-game-lib](https://github.com/a
 
 Apart from the final outcome, the making of it was well worth it. Like I said, I've gotten more familiar with the _cgl_ and some trigonometric shenanigans, which is always useful.
 
-You can play it [here](/games/cgl/index.html?tiktok).
+You can play it [here](/games/cgl/index.html?ticktock).
 
 {{< figure src="/ticktock.gif" >}}
 
