@@ -1,16 +1,15 @@
-title = "HOTSHOT";
+const title = "HOTSHOT";
 
-description = `
-HOLD
- to slow down
+const description = `
 RELEASE
  to shoot
+HOLD
+ to slow down
 `;
 
-options = {
+const options = {
   isPlayingBgm: true,
   seed: 1989,
-  isCapturing: true,
 };
 
 let targets = [];
@@ -31,11 +30,7 @@ const muzzleFlashes = [
   () => particle(50, 75, 20, 0.6),
 ];
 
-const createTarget = (pos, direction, withColor) => {
-  let color = "black";
-  if (withColor) {
-    color = rndi(0, 7) === 6 ? "yellow" : "black";
-  }
+const createTarget = (pos, direction, color) => {
   const target = {
     pos,
     width: 10,
@@ -98,9 +93,13 @@ const updateBullet = function() {
 }
 
 const spawnNewTargets = (withColor) => {
-  createTarget(vec(100, 45), "left", withColor);
-  createTarget(vec(-10, 30), "right", withColor);
-  createTarget(vec(100, 15), "left", withColor);
+  let color = "black";
+  if (withColor) {
+    color = rndi(0, 7) === 6 ? "yellow" : "black";
+  }
+  createTarget(vec(100, 45), "left", color);
+  createTarget(vec(-10, 30), "right", color);
+  createTarget(vec(100, 15), "left", color);
 }
 
 function update() {

@@ -1,10 +1,10 @@
-title = "DONEWELL";
+const title = "DONEWELL";
 
-description = `
+const description = `
 DO WELL!
 `;
 
-characters = [
+const characters = [
   `
 llllll
 ll l l
@@ -21,9 +21,9 @@ llllll
   `,
 ];
 
-options = {
+const options = {
   isPlayingBgm: true,
-  seed: 16,
+  seed: 12343,
 };
 
 /** @typedef {Object} block
@@ -169,7 +169,7 @@ function update() {
   p.vel.add(0, g);
   p.pos.add(p.vel);
 
-  // Game over if the player hit's the ground.
+  // Game over if the player hits the ground.
   if (p.pos.y > 100) {
     play("hit");
     end();

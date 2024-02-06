@@ -1,12 +1,12 @@
-title = "OFFGRID";
+const title = "OFFGRID";
 
-description = `
+const description = `
 Tap to shrink
 `;
 
-options = {
+const options = {
   isPlayingBgm: true,
-  seed: 90,
+  seed: 121231,
 };
 
 /** @typedef {Object} rectangle

@@ -1,6 +1,6 @@
-title = "JASMIN";
+const title = "JASMIN";
 
-description = `
+const description = `
 The elephants
 are loose!
 `;
@@ -10,7 +10,7 @@ options = {
   seed: 2508,
 };
 
-characters = [
+const characters = [
 `
  y  Y
 yyy  Y
