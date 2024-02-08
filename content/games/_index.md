@@ -41,7 +41,7 @@ You can play it [here](/games/cgl/index.html?ticktock).
 
 ## DONEWELL {#donewell}
 
-(2021-06-26 Sa)
+(2021-06-26)
 
 My second [cgl](https://github.com/abagames/crisp-game-lib) game. In my humble opinion, it's actually fun to play. Well done.
 
@@ -52,7 +52,7 @@ You can play it [here](/games/cgl/index.html?donewell).
 
 ## OFFGRID {#offgrid}
 
-(2021-07-31 Sa)
+(2021-07-31)
 
 The sound effects makes this one a more rhythmic experience. Depending on the player's speed, it can take a while to get going. But it'll get there :).
 
@@ -63,7 +63,7 @@ You can play it [here](/games/cgl/index.html?offgrid).
 
 ## JASMIN {#jasmin}
 
-(2021-08-24 Di)
+(2021-08-24)
 
 <div class="verse">
 
@@ -81,10 +81,21 @@ You can play it [here](/games/cgl/index.html?jasmin).
 
 ## HOTSHOT {#hotshot}
 
-(2021-09-30 Do)
+(2021-09-30)
 
 One game per month... I barely made it. This one is a _hardcore_ shooter. Hold any button (or press the touchscreen) to charge a shot. Releasing the button will release the shot. You can slow down the laser beam by pressing down again. As always, it's more fun on mobile. Enjoy!
 
 You can play it [here](/games/cgl/index.html?hotshot).
 
 {{< figure src="/hotshot.gif" >}}
+
+
+## JUMPMAN {#jumpman}
+
+(2024-01-08)
+
+Long time no see! A little auto-runner to shake off the rust. 🏃
+
+You can play it [here](/games/cgl/index.html?jumpman).
+
+{{< figure src="/jumpman.gif" >}}
