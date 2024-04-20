@@ -1,7 +1,8 @@
 +++
 title = "Take Your Media Anywhere With Emby"
 author = ["Frederic Linn"]
-draft = true
+date = 2024-04-20T14:01:00+02:00
+draft = false
 +++
 
 After the last two articles, I've said to myself: Why always go after `Jellyfin`? Why not go back to where it all began, the [fork](https://jellyfin.org/docs/general/about#why-did-you-fork) from `Emby`. I wanted to know just how much DNA both projects share these days and was curious if my knowledge of the former proved to be useful.
