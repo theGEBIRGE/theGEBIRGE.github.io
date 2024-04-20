@@ -18,7 +18,7 @@ I suggest you,<br />
 
 Last time we managed to gain remote code execution on a default `Jellyfin` instance. Unfortunately we needed a low-privileged user account to make it happen.
 
-After   [seeing](/get-out-of-jelly-free-card_shodan.png) how many instances of `Jellyfin` are directly reachable, I went back to the drawing board. Because what's better than a post-authentication vulnerability?
+After [seeing](/get-out-of-jelly-free-card_shodan.png) how many instances of `Jellyfin` are directly reachable, I went back to the drawing board. Because what's better than a post-authentication vulnerability?
 Exactly: A pre-authentication vulnerability!
 
 In this article, we're going to have a more thorough look at the `REST API`, discover an argument injection ([CVE-2023-49096](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-49096)) and finally exploit it in order to read arbitrary files among other things.
