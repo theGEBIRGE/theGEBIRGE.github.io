@@ -15,6 +15,8 @@ Ultimately, it _was_ useful, because I've found three vulnerabilities in version
 
 The issues themselves don't merit a full-blown article, which is why I'm simply including my initial short report to the vendor almost verbatim. It contains a fully commented exploit for the `XSS` issue.
 
+**Update April 21, 2024: Apparently the problem with the `ImageService` has been [known](https://emby.media/community/index.php?/topic/84893-images-dont-require-api_key/) for four years!**
+
 
 ### I Want to Write Exploits, Not Emails {#i-want-to-write-exploits-not-emails}
 
