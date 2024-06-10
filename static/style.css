@@ -122,7 +122,10 @@ blockquote p::after {
 
 html {
   font-family: "IBM Plex Serif", serif;
-  text-size-adjust: none;
+  text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
   margin: 1em;
   color: #282828;
   background-color: #ffffff;
