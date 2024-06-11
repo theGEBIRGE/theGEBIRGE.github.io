@@ -71,6 +71,9 @@ video {
 
 .highlight * {
   max-width: 100%;
+  /* Dirty hack, because I can't be bothered to figure out how to disable syntax highlighting in hugo altogether. 🤷🏻
+   * This overwrites the inline styles 'font-weight: bold' for certain key words based on the bw pygments theme. */
+  font-weight: normal !important;
 }
 
 .highlight + .highlight {
@@ -80,12 +83,6 @@ video {
 figcaption > p {
   font-size: 8px;
 }
-
-/* table { */
-/*   max-width: 100%; */
-/*   overflow: scroll; */
-/*   display: block; */
-/* } */
 
 .org-table table {
   border-collapse: collapse;
@@ -123,8 +120,6 @@ blockquote p::after {
 html {
   font-family: "IBM Plex Serif", serif;
   text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
-  -moz-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   margin: 1em;
   color: #282828;
@@ -168,7 +163,6 @@ h5,
 h6 {
   color: #d33682;
 }
-
 
 /* ibm-plex-mono-regular - latin */
 @font-face {
