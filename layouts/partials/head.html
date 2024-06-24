@@ -4,9 +4,18 @@
   <meta name="author" content="Frederic Linn">
   {{ if .IsHome }}
   <meta http-equiv="Refresh" content="0; url=/blog" />
-  {{ end }}
+  <title>GEBIRGE</title>
+  {{ else }}
   <title>{{.Title}} | GEBIRGE</title>
+  {{ end }}
   <!-- {{ $style := resources.Get "main.scss" | resources.ToCSS | resources.Minify | resources.Fingerprint }} -->
+  <meta name="msapplication-TileColor" content="#00aba9">
+  <meta name="theme-color" content="#ffffff">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#7cc67b">
   <link rel="alternate" type="application/rss+xml" href="https://gebir.ge/blog/index.xml" title="Security and more... Security | GEBIRGE">
   <link rel="stylesheet" href="/style.css">
 </head>
