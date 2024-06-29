@@ -184,6 +184,8 @@ The maintainer was very responsive, but doesn't want to remove the ability to di
 
 Overall not a bad start, but we can _definitely_ do better!
 
+**Update June 29, 2024: `CVE-2024-39307` was issued for this vulnerability and it is tracked [here](https://github.com/Kareadita/Kavita/security/advisories/GHSA-r4qc-3w52-2v84).**
+
 
 #### Flow {#flow}
 
@@ -355,8 +357,8 @@ for position, (key, stats) in enumerate(sorted_data):
 ```
 
 ```text
-Total number of plugins: 1749
-Total downloads of 'obsidian-annotator': 376353
+Total number of plugins: 1748
+Total downloads of 'obsidian-annotator': 377360
 Overall position: 24
 ```
 
