@@ -250,6 +250,8 @@ I've notified the team on May 7, 2024 as per their security policy, but received
 
 Given that many other projects already have public information about this issue and they specifically opted into the scripted content, I feel okay about sharing the information.
 
+**Update July 22, 2024: They did respond in the meantime and fixed the issue with version [10.9.8](https://github.com/jellyfin/jellyfin-web/releases/tag/v10.9.8).**
+
 
 #### Alexandria {#alexandria}
 
@@ -357,9 +359,9 @@ for position, (key, stats) in enumerate(sorted_data):
 ```
 
 ```text
-Total number of plugins: 1748
-Total downloads of 'obsidian-annotator': 377360
-Overall position: 24
+Total number of plugins: 1810
+Total downloads of 'obsidian-annotator': 384693
+Overall position: 23
 ```
 
 Do note that plugins are _disabled_ by [default](https://help.obsidian.md/Extending+Obsidian/Plugin+security). For good reason, too:
