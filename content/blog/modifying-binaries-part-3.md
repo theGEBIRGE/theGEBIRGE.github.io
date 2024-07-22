@@ -1,5 +1,5 @@
 +++
-title = "Going Viral, or an Infectious 🧝"
+title = "Going Viral, or an Infectious ELF 🧝"
 author = ["Frederic Linn"]
 date = 2022-02-01T09:54:00+01:00
 draft = false
@@ -634,4 +634,4 @@ As always, if you have any questions or suggestions: Feel free to [holla at me](
 [^fn:6]: That doesn't mean there are no viruses in script form. Have a look at this [talk](https://www.youtube.com/watch?v=2Ra1CCG8Guo) by Ben Dechrai.
 [^fn:7]: <https://www.youtube.com/watch?v=4jLT7GQYNhI&t=90s>
 [^fn:8]: I'm not being overmodest, I really have no clue.
-[^fn:9]: <https://sourceforge.net/projects/elftoolchain/>
+[^fn:9]: You can find it [here](https://sourceforge.net/projects/elftoolchain/).
