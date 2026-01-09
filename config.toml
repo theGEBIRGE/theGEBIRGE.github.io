@@ -10,8 +10,8 @@ pluralizeListTitles = false
 [markup.goldmark.renderer]
   unsafe = true
 rssLimit = 20
-copyright = "💖 2024 Frederic Linn"
+
 title = "Security and more... Security | GEBIRGE"
-[author]
+[params.author]
   name = "Frederic Linn"
   email = "frederic@gebir.ge"
