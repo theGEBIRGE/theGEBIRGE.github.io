@@ -67,6 +67,7 @@ video {
   background-color: #ffffff;
   overflow: auto;
   display: block;
+  padding: 0 0.5em;
 }
 
 .highlight * {
@@ -162,6 +163,12 @@ h4,
 h5,
 h6 {
   color: #d33682;
+}
+
+code,
+a {
+  overflow-wrap: anywhere;
+  word-break: break-word;
 }
 
 /* ibm-plex-mono-regular - latin */
